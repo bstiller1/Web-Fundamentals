@@ -1,4 +1,4 @@
-div,head,nav,footer,li{ border:1px solid black; }
+/* div,head,nav,footer,li{ border:1px solid black; } */
 header{ text-align:center; }
 nav{ text-align:center; margin:auto; padding:auto; }
 nav ul{ 
@@ -6,17 +6,18 @@ margin-left:0;
 margin-right:0; 
 padding-left:0;
 text-align:center; 
+float:left;
+
 }
 nav ul li {
-display: inline;
+/* display: inline; */ /* This helps display vert/horz */
 list-style: none;
 }
 nav ul li a{
-display: inline-block;
+/* display: inline-block; */ /* This helps display vert/horz */
 }
 #first{
 clear:left;
-float:left;
 }
 footer{
 clear:both; 
@@ -24,5 +25,17 @@ float:left;
 margin:auto; 
 padding:auto; 
 width:100%;
-text-align:center; }
+text-align:center; 
+position:absolute;
+left:0px;
+bottom:0px;
+}
+
+#content{
+margin-left:20px;
+float:left;
+width:80%;
+text-align:center;
+}
+
 
