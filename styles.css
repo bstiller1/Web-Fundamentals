@@ -1,0 +1,28 @@
+div,head,nav,footer,li{ border:1px solid black; }
+header{ text-align:center; }
+nav{ text-align:center; margin:auto; padding:auto; }
+nav ul{ 
+margin-left:0;
+margin-right:0; 
+padding-left:0;
+text-align:center; 
+}
+nav ul li {
+display: inline;
+list-style: none;
+}
+nav ul li a{
+display: inline-block;
+}
+#first{
+clear:left;
+float:left;
+}
+footer{
+clear:both; 
+float:left; 
+margin:auto; 
+padding:auto; 
+width:100%;
+text-align:center; }
+
