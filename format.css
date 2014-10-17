@@ -6,3 +6,4 @@ nav ul li a:visited{ color:white; }
 nav ul{ background-color: blue;}
 nav ul li{ padding:10px; }
 footer{ background-color:blue; color: white; }
+table, td{ border:1px solid blue; } 
