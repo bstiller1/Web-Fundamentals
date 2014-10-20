@@ -41,5 +41,11 @@ table{
 margin:auto;
 padding:auto;
 }
+.desc{
+margin-left:20px;
+width:75%;
+text-align:left;
+}
+
 
 
